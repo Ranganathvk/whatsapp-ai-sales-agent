@@ -1,0 +1,27 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+target/
+coverage/
+.venv/
+venv/
+__pycache__/
+
+# Local data, logs and editor files
+data/
+*.log
+.DS_Store
+.idea/
+.vscode/
